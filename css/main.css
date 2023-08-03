@@ -52,6 +52,7 @@ button {
 
 .header {
   height: 129px;
+  margin-bottom: 90px;
 }
 
 .header .container {
@@ -75,6 +76,8 @@ button {
 .contacts {
   right: 0;
   top: 10px;
+  right: 0px;
+  text-align: right;
 }
 
 .footer {
@@ -103,11 +106,8 @@ button {
   font-size: 13px;
   font-style: normal;
   font-weight: 400;
-  line-height: 20px; /* 153.846% */
+  line-height: 20px;
   text-decoration-line: underline;
-  top: 35px;
-  right: 0px;
-  position: absolute;
 }
 
 /* MAIN */
@@ -129,13 +129,13 @@ button {
   transition: background 0.4s;
 }
 
-.button-border {
+.button--border {
   background: transparent;
   color: #F50;
   border: 2px solid #F50;
 }
 
-.button-border:hover {
+.button--border:hover {
   color: #FFF;
   transition: background 0.4s;
 }
@@ -147,6 +147,7 @@ button {
 
 .preview {
   text-align: center;
+  margin-bottom: 230px;
 }
 
 .preview__title {
@@ -157,7 +158,6 @@ button {
   font-weight: 800;
   line-height: normal;
   text-transform: uppercase;
-  margin-top: 90px;
   margin-bottom: 17px;
 }
 
@@ -169,26 +169,25 @@ button {
   margin-bottom: 44px;
 }
 
-.preview__button {
-  margin-bottom: 230px;
-}
-
 /* OPTION */
+
+.options {
+  margin-bottom: 180px;
+}
 
 .options__item {
   display: inline-block;
   border: 5px solid transparent;
+  border-radius: 5px;
   width: 359px;
   height: 476px;
   margin-right: 27px;
-  margin-bottom: 180px;
   padding: 36px 22px 53px 22px;
   background-color: #FFF;
   color: black;
 }
 
 .options__item:hover {
-  border-radius: 5px;
   border: 5px solid #CCC;
 }
 
@@ -210,29 +209,42 @@ button {
   margin-bottom: 17px;
 }
 
+.options__feature {
+  margin-bottom: 25px;
+}
+
 .options__feature-block {
   display: inline-block;
   width: 110px;
   margin-right: 80px;
-  margin-bottom: 25px;
 }
 
 .options__feature-block:last-child {
   margin-right: 0px;
 }
 
+.options__feature-block span{
+  font-weight: bold;
+}
+
 .options__text {
   margin-bottom: 40px;
+}
+
+.new {
+  margin-bottom: 146px;
+}
+
+.news__list {
+  margin-bottom: 57px;
 }
 
 .news__item {
   display: inline-block;
   width: 555px;
   height: 394px;
-  border: 1px solid;
   margin-right: 25px;
   position: relative;
-  margin-bottom: 57px;
 }
 
 .news__item:last-child {
@@ -248,10 +260,6 @@ button {
   text-transform: uppercase;
   margin-bottom: 51px;
 } 
-
-.news__bg {
-  border: 0;
-}
 
 .news__content {
   position: absolute;
@@ -273,7 +281,6 @@ button {
 
 .paginator {
   text-align: center;
-  margin-bottom: 146px;
 }
 
 .paginator__display, .paginator__list, .paginator__item {
@@ -287,15 +294,18 @@ button {
   border-radius: 50%;
   color: #FFF;
   font-size: 16px;
-  font-weight: 700px;
+  font-weight: 700;
   text-align: center;
   line-height: 32px;
-
   transition: 0.4s;
 }
 
 .paginator__link:hover{
   background: #F50;
+}
+
+.about {
+  margin-bottom: 53px;
 }
 
 .about__img {
@@ -307,7 +317,6 @@ button {
 
 .about__content {
   display: inline-block;
-  position: relative;
   border-radius: 5px;
   background: #FFF;
   color: black;
@@ -315,11 +324,12 @@ button {
   height: 455px;
   margin-top: 97px;
   margin-left: -136px;
-  margin-bottom: 53px;
+  padding: 70px 81px 66px 81px;
 }
 
-.about__title, .about__text, .about__button {
-  position: absolute;
+.about__text {
+  padding-top: 37px;
+  padding-bottom: 43px;
 }
 
 .about__title {
@@ -355,31 +365,26 @@ button {
 
 .container--footer {
   position: relative;
+  top: 10px;
 }
 
+.container--footer .contacts__phone {
+  margin-top: 0px;
+}
 
 .menu--footer {
   left: 450px;
   top: 60px
 }
 
-.contacts--footer {
-  top: 40px
-}
-
-.contacts__free-call {
+.socials {
   position: absolute;
-  right: 0px;
-}
-
-.socials__list {
-  position: absolute;
+  top: 40px;
   left: 703px;
 }
 
 .socials__item {
   display: inline-block;
-  margin-top: 40px;
   margin-right: 10px;
 }
 
@@ -393,8 +398,9 @@ button {
   font-style: normal;
   font-weight: 400;
   line-height: 20px;
+  margin-top: 20px;
 }
 
 .logo--footer {
-  margin-top: 30px;
+  top: 30px;
 }
