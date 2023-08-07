@@ -1,0 +1,36 @@
+.partners__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.partners__item {
+  width: 25%;
+  margin-bottom: 75px;
+}
+
+.partners-section_bg_grey{
+  background: #f4f5f5;
+}
+
+.partners-section__content{
+  padding: 85px 0 15px;
+}
+
+.partners-section__content--reviews {
+  padding: 78px 0 96px;
+}
+
+.partners-section__title {
+  font-size: 48px;
+  font-weight: bold;
+  color: #1a1b1e;
+  margin-bottom: 82px;
+}
+
+.partners-section__title--reviews {
+  font-size: 36px;
+  text-transform: uppercase;
+  margin-bottom: 58px;
+}

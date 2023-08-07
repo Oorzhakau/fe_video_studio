@@ -34,3 +34,10 @@
   background: #F50;
 }
 
+.paginator--font-black, .paginator__link--font-black {
+  color: #000;
+}
+
+.paginator__link--font-black:hover {
+  color: #FFF;
+}

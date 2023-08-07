@@ -1,0 +1,11 @@
+.top-section {
+  background: url('../../img/top-line.png') center top no-repeat;
+}
+
+.top-section__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 26px;
+  min-height: 412px;
+}

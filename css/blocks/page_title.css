@@ -1,0 +1,9 @@
+.page-title {
+  text-transform: uppercase;
+  font-size: 72px;
+  font-weight: bold;
+}
+
+.page-title--top-section {
+  margin-bottom: 85px;
+}

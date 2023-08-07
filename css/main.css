@@ -14,3 +14,9 @@
 @import url('./blocks/about.css');
 @import url('./blocks/socials.css');
 @import url('./blocks/footer.css');
+
+@import url('./blocks/top_section.css');
+@import url('./blocks/page_title.css');
+@import url('./blocks/breadcrumbs.css');
+@import url('./blocks/records.css');
+@import url('./blocks/partners.css');

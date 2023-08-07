@@ -1,4 +1,5 @@
 
-.wrapper {
+.wrapper--background {
   background: url(../../img/header.png) center top no-repeat, url(../../img/bottom-pic.png) center bottom 150px no-repeat;
+  background-color: #17191C;
 }
