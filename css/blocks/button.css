@@ -1,0 +1,30 @@
+.button {
+  border-radius: 35px;
+  background: #F50;
+  width: 195px;
+  height: 55px;
+  flex-shrink: 0;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  color: #FFF;
+  cursor: pointer;
+  transition: background 0.4s;
+}
+
+.button--border {
+  background: transparent;
+  color: #F50;
+  border: 2px solid #F50;
+}
+
+.button--border:hover {
+  color: #FFF;
+  transition: background 0.4s;
+}
+
+.button:hover {
+  background: #FF3D00;
+  box-shadow: 0px 2px 4px 0px rgba(218, 1, 0, 0.30);
+}
