@@ -1,5 +1,8 @@
-.socials__list {
+.socials {
   margin-right: 70px;
+}
+
+.socials__list {
   display: flex;
   justify-content: space-between;
   align-items: center;

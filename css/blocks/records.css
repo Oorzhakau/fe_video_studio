@@ -16,9 +16,11 @@
   margin-bottom: 25px;
 }
 
+
 .records__item:last-child {
-  margin-bottom: 0;
+  margin-bottom: 0px;
 }
+
 
 .record__pic {
   width: 40%;
@@ -37,6 +39,7 @@
   display: flex;
   flex-direction: column;
   width: 622px;
+  padding-top: 13px;
 }
 
 .record__title {
@@ -44,7 +47,6 @@
   font-weight: bold;
   color: #000;
   margin-bottom: 28px;
-  padding-top: 13px;
 }
 
 .record__text {
