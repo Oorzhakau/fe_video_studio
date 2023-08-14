@@ -2,6 +2,11 @@
   text-align: right;
 }
 
+.contacts__workhours {
+  position: relative;
+  display: inline-block;
+}     
+
 .contacts__phone {
   display: block;
   font-size: 26px;
@@ -24,4 +29,8 @@
   font-style: normal;
   font-weight: 400;
   line-height: 20px;
+}
+
+.contacts_footer {
+  top: 45px;
 }

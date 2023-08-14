@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -25,21 +25,27 @@
             <nav class="menu">
               <ul class="menu__list">
                 <li class="menu__item">
-                  <a href="#" class="menu__link">Главная</a>
+                  <a href="/" class="menu__link">Главная</a>
                 </li>
                 <li class="menu__item">
-                  <a href="#" class="menu__link">Услуги</a>
+                  <a href="./service.html" class="menu__link">Услуги</a>
                 </li>
                 <li class="menu__item">
-                  <a href="#" class="menu__link">Отзывы</a>
+                  <a href="./reviews.html" class="menu__link">Отзывы</a>
                 </li>
               </ul>
             </nav>
             <address class="contacts">
-              <a href="tel:+78007003030" class="contacts__phone"
-                >8 800 700 30 30</a
-              >
-              <span class="contacts__graph">График работы</span>
+              <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
+              <div class="contacts__workhours">
+                <span class="contacts__graph">График работы</span>
+                <div class="dropdown">
+                  <ul class="dropdown__text">
+                    <li class="dropdown__item dropdown__item--bold">пн-вс: 09:00 - 20:00</li>
+                    <li class="dropdown__item">Обед: 14:00 - 14:30</li>
+                  </ul>
+                </div>
+              </div>
             </address>
           </div>
         </header>
@@ -196,13 +202,13 @@
             <nav class="menu menu--footer">
               <ul class="menu__list">
                 <li class="menu__item">
-                  <a href="#" class="menu__link">Главная</a>
+                  <a href="/" class="menu__link">Главная</a>
                 </li>
                 <li class="menu__item">
-                  <a href="#" class="menu__link">Услуги</a>
+                  <a href="./service.html" class="menu__link">Услуги</a>
                 </li>
                 <li class="menu__item">
-                  <a href="#" class="menu__link">Отзывы</a>
+                  <a href="./reviews.html" class="menu__link">Отзывы</a>
                 </li>
               </ul>
             </nav>
@@ -210,40 +216,20 @@
         <div class="footer__col">
           <div class="socials">
             <ul class="socials__list">
-              <li class="socials__item">
+              <li class="socials__item socials__item-tg">
                 <a href="#" class="socials__link">
-                  <img
-                    src="img/social/t.png"
-                    alt="Телеграм"
-                    class="socials__icon"
-                  />
                 </a>
               </li>
-              <li class="socials__item">
+              <li class="socials__item socials__item-vk">
                 <a href="#" class="socials__link">
-                  <img
-                    src="img/social/vk.png"
-                    alt="Вконтакте"
-                    class="socials__icon"
-                  />
                 </a>
               </li>
-              <li class="socials__item">
+              <li class="socials__item socials__item-fb">
                 <a href="#" class="socials__link">
-                  <img
-                    src="img/social/f.png"
-                    alt="Фейсбук"
-                    class="socials__icon"
-                  />
                 </a>
               </li>
-              <li class="socials__item">
+              <li class="socials__item socials__item-ig">
                 <a href="#" class="socials__link">
-                  <img
-                    src="img/social/in.png"
-                    alt="Инстаграмм"
-                    class="socials__icon"
-                  />
                 </a>
               </li>
             </ul>

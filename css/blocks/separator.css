@@ -1,0 +1,23 @@
+.separator {
+  display: flex;
+  color: #FFF;
+  background: #373737 url("../../img/reviews/party.png") right 40% bottom no-repeat;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 1920px;
+  min-height: 360px;
+}
+
+.separator__content {
+  max-width: 49%;
+}
+
+.separator__title {
+  font-size: 48px;
+  line-height: 1.42;
+  font-weight: 700;
+}
+
+.separator__title span {
+  color: #FF5400;
+}
