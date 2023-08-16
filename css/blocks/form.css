@@ -1,3 +1,7 @@
+input[type=text]:focus, textarea:focus {
+  border: 3px solid #555;
+}
+
 .form__row {
   display: flex;
   margin-bottom: 29px;
